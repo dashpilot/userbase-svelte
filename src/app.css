@@ -167,7 +167,9 @@ button:hover {
   color: white !important;
 }
 
-/* ".inherited-styles-for-exported-element" is a generated class for the inherited styles of the exported element, feel free to rename it. */
+.card > .list-group {
+  border-top: none;
+}
 
 @media (min-width: 64em) {
   :is(.l-app-header__business-environment-links, .l-app-header__help-center-link) {
